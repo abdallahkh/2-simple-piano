@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="piano.css">
+    <title>virtual Piano</title>
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">a3</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">b3</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">c3</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">a4</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">b4</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">c4</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">d4</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">a5</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">b5</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="186" class="key">
+            <kbd>;</kbd>
+            <span class="sound">c5</span>
+        </div>
+    </div>
+    <audio data-key="65" src="sound/a3.mp3"></audio>
+    <audio data-key="83" src="sound/b3.mp3"></audio>
+    <audio data-key="68" src="sound/c-3.mp3"></audio>
+    <audio data-key="70" src="sound/a-4.mp3"></audio>
+    <audio data-key="71" src="sound/b4.mp3"></audio>
+    <audio data-key="72" src="sound/c4-middle-c.mp3"></audio>
+    <audio data-key="74" src="sound/d4.mp3"></audio>
+    <audio data-key="75" src="sound/a5.mp3"></audio>
+    <audio data-key="76" src="sound/b5.mp3"></audio>
+    <audio data-key="186" src="sound/c5.mp3"></audio>
+    <script src="piano.js"></script>
+</body>
+</html>
